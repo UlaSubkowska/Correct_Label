@@ -1,0 +1,6 @@
+Porównywanie du¿ych plików tekstowych wzglêdem etykiet:
+T³umacze pewnego portalu internetowego, który jest dostêpny w dwóch jêzykach (angielski i hiszpañski) zauwa¿yli, ¿e 
+w hiszpañskim t³umaczeniu niektóre etykiety pozosta³y w jêzyku angielskim, a czêœæ zosta³a w ogólne pominiêta. 
+Chc¹ coœ z tym zrobiæ i naprawiæ te b³edy, ale nie s¹ programistami, a pliki zawieraj¹ bardzo du¿o etykiet, do tego s¹ 
+w formacie json z którym wczeœniej siê nigdy nie spotkali. Próbowali porównywaæ to rêcznie, ale lepiej pomó¿ im i napisz 
+aplikacje, która u³atwi im prace.
