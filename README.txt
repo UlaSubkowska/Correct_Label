@@ -4,23 +4,33 @@ If you don't have Python, please go to the website: https://www.python.org/downl
 following instructions from website (you can find the version and instruction for different OS - Windows, LINUX/UNIX and others).
 
 Rest of instructions are for Windows operating system (for more information about using application with others OS please search in internet) 
-*All outputs are default save in folder C:\Users\User
+Please paste the folder CORRECT_LABEL at your Desktop (check if you have all required files inside folder CORRECT_LABEL)
+List of reguired files in CORRECT_LABEL folder:
+-CORRECT_LABEL.py
+-CORRECT_LABEL_second_step.py
+-first_file_in_english.json
+-second_file_in_spanish.json
+-folder .idea
+-README.txt
+
 
 HOW TO OPEN CORRECT_LABEL:
-Please find the exact path of file CORRECT_LABEL.py 
-To do this you can:
-1. open your start menu, 
-2. type CORRECT_LABEL.py and press right button of mouse to open properites,
-3. in the 'General' window there is the line:'localization'where you can find the exact path (example: C:\Users\Ula\PycharmProjects). 
-Now open command line interpreter from your start menu and type:
-python path\CORRECT_LABEL.py (where path is the exact path which you already found example: python C:\Users\Ula\PycharmProjects\CORRECT_LABEL.py)
-Press 'Enter' to start program. 
+Please open command line interpreter from your start menu.
+You will see "C:\Users\User>", where User is name of user at your computer (example: C:\Users\Ula>)
+Type 'cd Desktop' after sigh '>' and press enter (type text without ' )
+Type 'cd CORRECT_LABEL' and press enter
+Now you should see "C:\Users\User\Desktop\CORRECT_LABEL>" at your command line interpreter.
+*If path you see is different (except the name of user) please check that you have CORRECT_LABEL folder at you Desktop and try agin from beggining. 
+**If you still have a problem, please find solution in internet your goal is to get this path - "C:\Users\User\Desktop\CORRECT_LABEL>" on the screen. 
 
-Then follow instructions in program CORRECT_LABEL.py (keep in mind that before name of file you want to analise you have to type 
-exact path, use the same method to find it as before - example C:\Users\Ula\PycharmProjects\CORRECT_LABEL\first_file_in_english.json).
+Now please type 'python CORRECT_LABEL.py' and press enter to start program. 
+
+Then follow instructions in program CORRECT_LABEL.py (keep in mind that files which you want to attache to program (first_file_in_english.json and second_file_in_spanish.json)
+have to be in CORRECT_LABEL folder and you have to type filname extension).
 
 
 HOW TO WORK WITH output_labels.csv:
+Program CORRECT_LABEL.py saved a new file at your computer output_labels.csv. You can find the file in folder CORRECT_LABEL.
 Open the file by Microsof Excel.
 To split columns (instructions for Microsoft Excel 2010):
 1. mark whole 'A' column,
@@ -38,13 +48,11 @@ When work is finish save all changes and close csv file. Go to next step 'HOW TO
 
 
 HOW TO OPEN CORRECT_LABEL_second_step:
-Please find the exact path of file CORRECT_LABEL_second_step.py (you can find instruction for it in part 'HOW TO OPEN CORRECT_LABEL')
+Please make sure that you are still at the same pleace in command line interpreter ('C:\Users\User\Desktop\CORRECT_LABEL>').
+*If you have a problem, please find solution in internet your goal is to get this path - "C:\Users\User\Desktop\CORRECT_LABEL>" on the screen. 
+Now please type 'python CORRECT_LABEL_second_step.py' and press enter to start program. 
 
-Now open command line interpreter from your start menu and type:
-python path.CORRECT_LABEL_second_step.py (where path is the exact path which you already found)
-
-Then follow instructions in program CORRECT_LABEL_second_step.py (keep in mind that before name of file you want to analise you have to type 
-exact path, use the same method to find it as before - example C:\Users\Ula\PycharmProjects\CORRECT_LABEL\good_translated.txt).
-
+Then follow instructions in program CORRECT_LABEL_second_step.py (keep in mind that files which you want to attache to program (output_labels.csv) have to be in CORRECT_LABEL 
+folder and you have to type filname extension.
 
 Also you can use IDLE for execute whole program if you want.

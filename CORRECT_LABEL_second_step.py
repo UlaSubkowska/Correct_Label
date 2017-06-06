@@ -1,22 +1,11 @@
 import csv
 import json
 
-print('Hello, nice to see you again!\n'
-      'Last time I saved at your computer the txt file which contain all labels which was '
-      'correctly translated, please find the exact path of good_translated_labels.txt\n')
-print('Type the exact path and name of good_translated_labels.txt file')
-
-while True:
-    file = input()
-    try:
-        json_good_translated = open(file).read()
-        break
-    except FileNotFoundError:
-        print('something went wrong, '
-              'please check if you typed the name correctly and type the name of file again')
+json_good_translated = open('good_translated_labels.txt').read()
 all_corrected_translations = json.loads(json_good_translated)
 
-print("Please type the exact path and name of file you've corrected (output_labels_corrected.csv)")
+print('Hello, nice to see you again!\n')
+print("Please type the name of file you've corrected (output_labels_corrected.csv)")
 while True:
     output_labels = input()
     try:
